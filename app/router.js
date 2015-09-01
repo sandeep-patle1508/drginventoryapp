@@ -7,9 +7,8 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.resource('inventorytypes', function () {
-
   });
-
+  this.resource('employees', function(){});
 });
 
 export default Router;

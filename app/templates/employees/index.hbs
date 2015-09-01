@@ -1,0 +1,24 @@
+<div class="table-responsive">
+<table class="primary table table-striped">
+	<thead>
+		<tr>
+		<th>Emp id</th> 
+		  <th>First Name</th>
+		  <th>Last Name</th>
+		  <th>Mobile Number</th>
+		  <th>Domain</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each employee in model}}
+			<tr>
+				<td>{{employee.emp_no}}</td>
+				<td>{{employee.first_name}}</td>
+				<td>{{employee.last_name}}</td>
+				<td>{{employee.mobile_number}}</td>
+				<td>{{employee.domain}}</td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>
+</div>
